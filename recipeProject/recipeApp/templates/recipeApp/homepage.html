@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'recipeApp/homepage.css' %}">
+</head>
+<body>
+<h1>Welcome to Delectable Recipes</h1>
+
+<a href="{% url 'login' %}">Click here to login</a> <a href="{% url 'newuser'%}">New user</a>
+
+
+<img src="{% static 'recipeApp/images/imageedit_1_5861034240.png' %}" width="950" height="600">
+</body>
+</html>
